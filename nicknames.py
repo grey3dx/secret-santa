@@ -1,0 +1,16 @@
+nicknames= {
+  'akshar': "Akshar Jain",
+  'rameez': "Akram Rameez",
+  'tabish': "Tabish Sada",
+  'arjun': "Arjun Jagdish",
+  'hayley': "Hayley Cunningham",
+  'shyam': "Shyam Gopal",
+  'sandeep': "Sandeep Rajendran" ,
+  'aswin': "Aswin Suresh Krishnan",
+  'anoop': "Anoop Sunil",
+  'david': "David Joshy",
+  'abel': "Abel Augustine",
+  'kevin': "Kevin Anilson",
+  'sai': "Sai Shetty",
+  'hari': "Hari Krishnan",
+}
