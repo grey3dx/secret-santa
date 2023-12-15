@@ -28,8 +28,7 @@ def send_email(santa, subject, content_html):
 
     message = Mail(
         from_email="rameez2612@gmail.com",
-        # to_emails=santa.email,
-        to_emails=["rameez2612+santa@gmail.com"],
+        to_emails=[santa.email],
         subject=subject,
         html_content=content_html
     )
