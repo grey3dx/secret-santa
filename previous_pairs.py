@@ -53,7 +53,6 @@ previous_pairs = {
         "cherian",
         "abel",
         "sandeep",
-        "aswin",
         "sai"
     ],
     "blessen": [
@@ -138,6 +137,9 @@ previous_pairs = {
     "hayley": [
         "kataria",
         "blessen",
-        "shyam"
+        "shyam",
+    ],
+    "aswin": [
+        "kevin",
     ]
 }

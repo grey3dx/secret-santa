@@ -1,7 +1,7 @@
 import csv
 
 class SecretSantaParticipant:
-    def __init__(self, timestamp, username, name, email, address, phone, comments):
+    def __init__(self, timestamp, username, name, email, address, phone, comments, *args, **kwargs):
         self.name = name
         self.username = username
         self.email = email
@@ -13,6 +13,9 @@ class SecretSantaParticipant:
         return self.username
 
     def __str__(self):
+        return f"{self.name} ({self.email})"
+
+    def __repr__(self):
         return f"{self.name} ({self.email})"
 
 def read_participants(file_path):

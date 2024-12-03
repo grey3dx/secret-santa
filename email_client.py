@@ -1,6 +1,7 @@
 
 import os
 from time import sleep
+from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
@@ -12,7 +13,9 @@ def html(santa, person):
     return j2_env.get_template('mailtemplate.html').render(giver=santa, receiver=person)
 
 def sendEmail(santa, person):
-    subject = 'Secret Santa \'23'
+    current_year = datetime.now().year
+    subject = 'Secret Santa ' + str(current_year)
+    print(subject)
     mail_body = html(santa, person)
 
     santa_temp = santa.get_username()
@@ -27,13 +30,14 @@ def send_email(santa, subject, content_html):
     sleep(1)
 
     message = Mail(
-        from_email="rameez2612@gmail.com",
+        from_email="sandeep070993@gmail.com",
         to_emails=santa.email,
         subject=subject,
         html_content=content_html
     )
 
     try:
+        print(os.environ.get('SENDGRID_API_KEY'))
         sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
         response = sg.send(message)
         print(response.status_code)

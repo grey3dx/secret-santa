@@ -5,7 +5,7 @@ from email_client import fire_emails
 
 # from email_client import *
 
-responses = "responses.csv"
+responses = "responses_2024_test.csv"
 
 def main():
     participants = read_participants(responses)
@@ -19,6 +19,7 @@ def main():
             pass
 
     ss_tuples = create_object_list(participants, ss_map)
+    print(ss_tuples)
 
     fire_emails(ss_tuples)
 

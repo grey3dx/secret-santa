@@ -12,10 +12,10 @@ def initialize_dicts(full_list):
         # remove self from possible candidaes
         candidates[user].remove(user)
 
-        if user in previous_pairs.keys():
-            orig_set = set(candidates[user])
-            remove_set = set(previous_pairs[user])
-            candidates[user] = list(orig_set - remove_set)
+        #if user in previous_pairs.keys():
+        #    orig_set = set(candidates[user])
+        #    remove_set = set(previous_pairs[user])
+        #    candidates[user] = list(orig_set - remove_set)
 
     return candidates
 
