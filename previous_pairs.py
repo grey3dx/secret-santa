@@ -4,13 +4,15 @@ previous_pairs = {
         "kataria",
         "hari",
         "blessen",
-        "sai"
+        "sai",
+        "anoop"
     ],
     "abel": [
         "sandeep",
         "tabish",
         "david",
-        "nithya"
+        "nithya",
+        "akshar"
     ],
     "kartik": [
         "adit",
@@ -26,7 +28,8 @@ previous_pairs = {
         "hari",
         "sandeep",
         "akshar",
-        "rameez"
+        "rameez",
+        "david"
     ],
     "cherian": [
         "kataria",
@@ -50,7 +53,8 @@ previous_pairs = {
         "cherian",
         "abel",
         "sandeep",
-        "aswin"
+        "aswin",
+        "sai"
     ],
     "blessen": [
         "david",
@@ -64,35 +68,40 @@ previous_pairs = {
         "kartik",
         "arjun",
         "sidhant",
-        "hayley"
+        "hayley",
+        "rameez"
     ],
     "hari": [
         "rameez",
         "anoop",
         "aman",
         "cherian",
-        "akshar"
+        "akshar",
+        "hayley"
     ],
     "rameez": [
         "arjun",
         "sai",
         "shyam",
         "david",
-        "kevin"
+        "kevin",
+        "aswin"
     ],
     "arjun": [
         "anoop",
         "shyam",
         "kataria",
         "aman",
-        "tabish"
+        "tabish",
+        "hari"
     ],
     "anoop": [
         "sidhant",
         "rameez",
         "ashik",
         "sai",
-        "david"
+        "david",
+        "arjun"
     ],
     "sidhant": [
         "ashik",
@@ -111,20 +120,24 @@ previous_pairs = {
         "david",
         "anoop",
         "kevin",
-        "arjun"
+        "arjun",
+        "abel"
     ],
     "kevin": [
         "rameez",
         "kartik",
-        "hari"
+        "hari",
+        "sandeep"
     ],
     "akshar": [
         "kevin",
         "arjun",
-        "kartik"
+        "kartik",
+        "tabish"
     ],
     "hayley": [
         "kataria",
-        "blessen"
+        "blessen",
+        "shyam"
     ]
 }
